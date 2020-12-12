@@ -1,6 +1,7 @@
 .SYBar {
     display: flex;
     align-items: center;
+    position: fixed;
     justify-content: space-evenly;
     width: 80vw;
     height: 10vh;

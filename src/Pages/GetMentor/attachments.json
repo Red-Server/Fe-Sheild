@@ -1,0 +1,34 @@
+[
+    {
+        "name": "proof_document.pdf",
+        "file_type": "fa fa-file-pdf-o"
+    },
+    {
+        "name": "proof_image.jpg",
+        "file_type": "fa fa-file-image-o"
+    },
+    {
+        "name": "proof_video.mp4",
+        "file_type": "fa fa-file-video-o"
+    },
+    {
+        "name": "proof_voice.mp3",
+        "file_type": "fa fa-file-audio-o"
+    },
+    {
+        "name": "proof_document.pdf",
+        "file_type": "fa fa-file-pdf-o"
+    },
+    {
+        "name": "proof_image.jpg",
+        "file_type": "fa fa-file-image-o"
+    },
+    {
+        "name": "proof_video.mp4",
+        "file_type": "fa fa-file-video-o"
+    },
+    {
+        "name": "proof_voice.mp3",
+        "file_type": "fa fa-file-audio-o"
+    }
+]

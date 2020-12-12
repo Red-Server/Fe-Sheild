@@ -1,3 +1,43 @@
 .Attachments {
     display: flex;
 }
+.docscreen {
+    margin-top: 15vh;
+    /* margin-left: 2vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.doc {
+    background: #FFFFFF;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 70vw;
+    margin: 1%;
+    padding: 0 30px;
+}
+.doc span, .doc button {
+    color: #5F001B;
+    font-size: 25px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.doc a{
+    flex: 1;
+}
+.doc p {
+    flex: 8;
+}
+.doc-get {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}

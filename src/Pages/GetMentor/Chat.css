@@ -1,3 +1,67 @@
+.SF {
+    margin-left: 20vw;
+    width: 100%;
+}
+.chatscreen {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 .Chat {
     display: flex;
+    /* height: 200vh; */
+}
+.input {
+   position: fixed;
+   bottom: 4%;
+   display: flex;
+   align-items: center;
+    margin-left: 5%;
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 0% 5%;
+    background-color: white;
+}
+.input input {
+    height: 8vh;
+    width: 50vw;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 5%;
+}
+.input span {
+    font-size: 20px;
+    cursor: pointer;
+}
+.input button {
+    padding: 15px 30px;
+    background: #ED1250;
+    color: white;
+    font-weight: 700;
+    border-radius: 0px 30px 30px 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.messages {
+    padding: 2% 2%;
+}
+.incoming-msg, .outgoing-msg {
+    margin-top: 2%;
+    line-height: 20px;
+}
+.incoming-msg {
+    background: rgba(230, 33, 88, 0.29);
+    border-radius: 35px 35px 35px 0px;
+    padding: 2% 2%;
+    overflow-wrap: break-word;
+    margin-right: 20%;
+}
+.outgoing-msg {
+    background: #E3EAF2;
+    border-radius: 35px 35px 0px 35px;
+    padding: 2% 2%;
+    overflow-wrap: break-word;
+    margin-left: 20%;
 }

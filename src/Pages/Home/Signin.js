@@ -8,7 +8,7 @@ class Signin extends Component {
             <form>
               <input type="text" placeholder="Enter Email or Phone Number" /><br />
               <input type="password" placeholder="Password" /><br />
-              <a href="/">Forgot Password ?</a><br />
+              <a href="/getmentor/chat/">Forgot Password ?</a><br />
               <button>LOGIN</button>
             </form><br /><br />
             <p><hr /> &nbsp; Or continue with &nbsp; <hr /></p>
