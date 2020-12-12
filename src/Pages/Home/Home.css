@@ -1,0 +1,108 @@
+.Home {
+    background-image: url("https://images.unsplash.com/photo-1516054782498-beb65831f3a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+        /* background: linear-gradient(90.03deg, rgba(0, 0, 0), rgba(0, 0, 0, 0.256)); */
+    height: 100vh;
+        max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.home-txt {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 25vh;
+}
+.home-txt p {
+    /* padding-top: 3vh; */
+    padding-left: 10vh;
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.home-txt b {
+    font-weight: 900;
+    color: #ED1250;
+}
+.home-portal {
+    padding-top: 15vh;
+    padding-left: 20vh;
+}
+.Signin, .Signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-portal form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-portal input {
+    background: rgba( 255, 255, 255, 0.30 );
+    box-shadow: 0 8px 30px 0 #696969;
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    /* border: 0.5px solid #ED1250; */
+    border: none;
+    width: 450px;
+    height: 64px;
+    outline: none;
+    padding: 5% 10%;
+    font-size: 15px;
+}
+.home-portal button {
+    border: 3px solid #ED1250;
+    box-sizing: border-box;
+    border-radius: 96px;
+    background-color: transparent;
+    width: 180px;
+    height: 60px;
+    color: #ED1250;
+    font-size: 2vh;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+.home-portal form button {
+    color: white;
+    background-color: #ED1250;
+}
+.home-portal .auth-tab {
+    display: flex;
+}
+.home-portal span {
+    background: rgba( 255, 255, 255, 0.30 );
+    box-shadow: 0 8px 30px 0 #696969;
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    width: 65px;
+    height: 60px;
+    font-size: 3vh;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-portal p {
+    color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-portal hr {
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: #ED1250;
+}
+.home-portal a {
+    text-decoration: none;
+    color: #1e1e1e;
+    text-align: right;
+}

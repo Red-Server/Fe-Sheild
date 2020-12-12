@@ -1,5 +1,4 @@
 .Navbar {
-    border-right: 2px solid rgb(220, 220, 220);
     width: 20vw;
     height: 100vh;
     background-color: white;
@@ -20,8 +19,8 @@
     color: #ED1250;
     margin-left: 5%;
     margin-top: 5vh;
-    font-size: 4vh;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 500;
 }
 .tab {
     margin-top: 5vh;
@@ -41,7 +40,7 @@
 .tab-item p {
     color: #1E1E1E;
     margin-left: 5%;
-    font-size: 2vh;
+    font-size: 18px;
 }
 .tab-item .active {
     color: #ED1250;
