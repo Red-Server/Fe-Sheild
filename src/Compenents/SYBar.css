@@ -1,0 +1,24 @@
+.SYBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 10vh;
+    background: #FFFFFF;
+    box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.SYBar a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 2vh;
+    height: 10vh;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SYBar .active {
+    color: #ed1250;
+    border-bottom: 3px solid #ed1250;
+}
